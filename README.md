@@ -1,14 +1,14 @@
-# scbcn17-customer-segmentation
-Customer Segmentation workshop for SoftwareCraftsmanship 2017 conference in Barcelona
+# scbcn17 Customer Segmentation Workshop
+This workshop will be part of the [Software Craftsmanship 2017 conference](http://softwarecraftsmanshipbarcelona.org) in Barcelona.
 
-## Description
-Let's learn about useful Machine Learning algorithms, invoking them from common libraries (pandas & scikit-learn).
+## Workshop Description
+Let's learn about useful Machine Learning algorithms, invoking them from common data science libraries.
 
 The workshop session starts with a brief introduction to ML (slides to be released after the workshop) and the different approaches we can apply. After that we will use this repository to practice exploring a real dataset, cleaning and optimizing the data, and using ML algorithms to find hidden insights.
 
-NO need to know about maths, machine learning, nor python; this is an introductory but profitable workshop!
+No need to know about maths, machine learning, nor python; this is an introductory but profitable workshop!
 
-## Preparation
+## Requirements
 You will need [docker](https://www.docker.com/) already installed in your machine.
 
 We'll use a *docker container* that contains a data science stack, [jupyter/scypy-notebook](https://hub.docker.com/r/jupyter/scipy-notebook), so you don't need to install anything locally.
@@ -20,7 +20,7 @@ This container comes with the tools we need for this workshop:
 - **matplotlib** and **seaborn**: Python ploting libraries to display data
 - **scikit-learn**: Library with lots of Machine Learning algorithms
 
-*PLEASE*: download this container before taking part in the workshop (just running a 'docker pull jupyter/scypy-notebook' in a terminal).
+*PLEASE*: download this container before taking part in the workshop. You can do so just executing `docker pull jupyter/scypy-notebook` in a terminal.
 
 ## Dataset
 The workshop is based in a dataset that includes real purchases on ulabox website. This dataset will be released soon in CSV format.
