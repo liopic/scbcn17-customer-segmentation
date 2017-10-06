@@ -1,5 +1,5 @@
 # scbcn17 Customer Segmentation Workshop
-This workshop will be part of the [Software Craftsmanship 2017 conference](http://softwarecraftsmanshipbarcelona.org) in Barcelona.
+This workshop will be part of the [Software Craftsmanship 2017 conference](http://softwarecraftsmanshipbarcelona.org) in Barcelona, October 2017.
 
 ## Workshop Description
 Let's learn about useful Machine Learning algorithms, invoking them from common data science libraries.
@@ -17,13 +17,18 @@ This container comes with the tools we need for this workshop:
 - **jupyter**: A web IDE that edits notebooks
 - **python3**: The language that will use as interface 
 - **numpy** and **pandas**: Python libraries to work with matrices and datasets
-- **matplotlib** and **seaborn**: Python ploting libraries to display data
+- **matplotlib**: Python ploting library to display data
 - **scikit-learn**: Library with lots of Machine Learning algorithms
 
-*PLEASE*: download this container before taking part in the workshop. You can do so just executing `docker pull jupyter/scypy-notebook` in a terminal.
-
 ## Dataset
-The workshop is based in a dataset that includes real purchases on ulabox website. This dataset will be released soon in CSV format.
+The workshop uses a [dataset released by ulabox](https://github.com/ulabox/datasets) in september 2017, that includes real purchases on ulabox website.
 
-## Running the notebook
-Detailed instructions to be released soon.
+## Preparing and running this workshop
+1. docker pull jupyter/scipy-notebook
+2. git clone git@github.com:ulabox/datasets
+3. git clone git@github.com:liopic/scbcn17-customer-segmentation
+4. cp datasets/data/*.csv scbcn17-customer-segmentation/
+5. cd scbcn17-customer-segmentation
+6. ./jupyter.sh
+7. Open the link in your browser and open the Workshop.ipynb file
+
